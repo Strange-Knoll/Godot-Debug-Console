@@ -1,0 +1,72 @@
+[gd_resource type="Theme" load_steps=10 format=2]
+
+[ext_resource path="res://Debug/assets/fonts/Source Code Pro/static/SourceCodePro-Regular.ttf" type="DynamicFontData" id=1]
+
+[sub_resource type="StyleBoxFlat" id=9]
+bg_color = Color( 0.117647, 0.117647, 0.117647, 1 )
+border_color = Color( 0.8, 0.8, 0.8, 0 )
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+expand_margin_top = 4.0
+
+[sub_resource type="StyleBoxFlat" id=10]
+content_margin_right = 16.0
+bg_color = Color( 0, 0, 0, 0.25098 )
+border_width_right = 8
+border_color = Color( 0.8, 0.8, 0.8, 0 )
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+expand_margin_top = 4.0
+
+[sub_resource type="StyleBoxLine" id=6]
+color = Color( 1, 1, 1, 1 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0, 0, 0, 0.74902 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0, 0, 0, 1 )
+border_width_left = 8
+border_width_top = 8
+border_width_right = 8
+border_width_bottom = 8
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id=11]
+bg_color = Color( 0.117647, 0.117647, 0.117647, 1 )
+border_color = Color( 0.8, 0.8, 0.8, 0 )
+corner_radius_top_left = 4
+corner_radius_bottom_left = 4
+expand_margin_left = 4.0
+
+[sub_resource type="StyleBoxFlat" id=8]
+bg_color = Color( 0, 0, 0, 0.25098 )
+border_width_bottom = 8
+border_color = Color( 0.8, 0.8, 0.8, 0 )
+corner_radius_top_left = 4
+corner_radius_bottom_left = 4
+expand_margin_left = 4.0
+
+[sub_resource type="DynamicFont" id=4]
+font_data = ExtResource( 1 )
+
+[resource]
+default_font = SubResource( 4 )
+HFlowContainer/constants/hseparation = 16
+HFlowContainer/constants/vseparation = 16
+HScrollBar/styles/grabber = SubResource( 9 )
+HScrollBar/styles/scroll = SubResource( 10 )
+HSeparator/styles/separator = SubResource( 6 )
+Label/colors/font_color = Color( 1, 1, 1, 1 )
+Panel/styles/panel = SubResource( 2 )
+PanelContainer/styles/panel = SubResource( 5 )
+VScrollBar/styles/grabber = SubResource( 11 )
+VScrollBar/styles/scroll = SubResource( 8 )
