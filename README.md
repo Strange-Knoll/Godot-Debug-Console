@@ -16,8 +16,6 @@ var debug : Debug.Data              # allocate debug data instance
 func ready():
 	debug = Debug.New("Example Bug")       # instance debug data object
 	debug.Log("_ready()", "Hello World")   # create a log in our debug object
-
-...
 ```
 note the uppercase 'N' in `Debug.New("")`, this function is not the same as `Debug.new()`. 
 
