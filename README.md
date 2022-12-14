@@ -2,8 +2,8 @@
 An in-game debug console for godot. It does one thing, and it does it well. It tracks and displays debug logs, and is dead simple to use.
 
 its easily emplimentable into any project. 
-- Bring the Debug folder to the top level of any godot project
-- Add Debug.gd and DebugView.tscn to the auto load list in godot
+- Copy the "Debug" folder to the top level directoryof any godot project.
+- Add Debug.gd and DebugView.tscn to the auto load list in godot project settings.
 
 now you're ready to start logging things in your code. 
 ```
@@ -20,3 +20,5 @@ func ready():
 note the uppercase 'N' in `Debug.New("")`, this function is not the same as `Debug.new()`. 
 
 The debug ui will be shown by default when running a scene. Pressing `BACKSPACE` will toggle the debug ui on and off. To change the size of the debug panel click and drag at the edge of the panel.
+
+to safely remove the debug console in release versions of your game without having to search and reomve debug statements in your code, remove "DebugView.tscn" from the auto load list in project settings.
